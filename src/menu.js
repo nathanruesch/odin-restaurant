@@ -171,7 +171,6 @@ const menu = () => {
     parentDiv.classList.add("menu", "page", "menu-parent");
 
     sections.forEach(section => {
-        console.log(section);
         parentDiv.appendChild(section);
     });
 
